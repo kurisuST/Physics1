@@ -1,4 +1,7 @@
-﻿namespace Physics1
+﻿using System.Buffers;
+using System.Net;
+
+namespace Physics1
 {
 	internal class Canyon
 	{
@@ -27,7 +30,7 @@
 
 		public int GetFinalValue()
 		{
-			return BWeight*Acc;
+		return Operation.Multiplication.Multiply(bWeight, acc);
 		}
     }
 }

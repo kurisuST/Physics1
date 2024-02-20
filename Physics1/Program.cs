@@ -1,6 +1,4 @@
-﻿using Physics1;
-
-namespace AppClassTest
+﻿namespace Physics1
 {
     internal class Program
     {
@@ -12,7 +10,8 @@ namespace AppClassTest
             int acc = Convert.ToInt32(Console.ReadLine());
             Canyon bulletForce = new Canyon (bWeight, acc);
             int FinalForce = bulletForce.GetFinalValue();
-            Console.WriteLine(FinalForce);
+            Console.WriteLine("The bullet force was: "+ FinalForce+ "(N)");
+            
         }
     }
 }

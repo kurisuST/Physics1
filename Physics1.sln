@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Physics1", "Physics1\Physics1.csproj", "{F21384F4-B804-4547-945B-9891918EAB09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operation", "Operation\Operation.csproj", "{ADA0124A-D7C0-4DA4-8956-899F5B26796E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F21384F4-B804-4547-945B-9891918EAB09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F21384F4-B804-4547-945B-9891918EAB09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F21384F4-B804-4547-945B-9891918EAB09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADA0124A-D7C0-4DA4-8956-899F5B26796E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADA0124A-D7C0-4DA4-8956-899F5B26796E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADA0124A-D7C0-4DA4-8956-899F5B26796E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADA0124A-D7C0-4DA4-8956-899F5B26796E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
